@@ -9,3 +9,6 @@ class Vehicle:
     
     def __str__(self):
         return f"{self.year} {self.make} {self.model}"
+    
+    def __repr__(self):
+        return f"vihicle(make='{self.make}', model='{self.model}', year={self.year})"
